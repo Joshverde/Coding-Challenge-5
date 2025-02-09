@@ -38,3 +38,11 @@ console.log(`**Task 3**\nItems in cart: ${cartItems}\n`);  // logs the final ver
 let prices = [100,200,300];
 let disPrice = prices.map(price => price *.90); // discounts prices in array by 10% using .map() method
 console.log(`**Task 4**\nPrices: ${disPrice}\n`); //prints to console log
+
+
+//Task 5 - Product Availability
+//declares and array
+let inventory = [5,0,12,8,0];
+let filtered = inventory.filter(inventory => inventory > 0 ); // only shows values greater than 0 using .filter() method
+console.log(`**Task 5**\nProduct Quantities: ${filtered}\n`);
+
