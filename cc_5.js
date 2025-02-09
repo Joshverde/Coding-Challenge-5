@@ -46,3 +46,10 @@ let inventory = [5,0,12,8,0];
 let filtered = inventory.filter(inventory => inventory > 0 ); // only shows values greater than 0 using .filter() method
 console.log(`**Task 5**\nProduct Quantities: ${filtered}\n`);
 
+
+//Task 6 - Revenue Calculation
+// declares an array
+let sales = [500,300,200,400]; //Creates an array
+let totalSales = sales.reduce((sum,sales)=>sum + sales,0); //. applies the reduce method to sum total sales
+console.log(`**Task 6**\nTotal Sales: ${totalSales}\n`); //prints to console log
+
