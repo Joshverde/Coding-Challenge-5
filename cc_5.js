@@ -21,3 +21,13 @@ let order ={
     }
 };
 order.displayOrder(); //calls the method 
+
+
+//Task 3 - Shopping Cart
+// declares an array with three products
+let cartItems = ["Switch","Xbox","PS4"];
+cartItems.push("Legos");   // adds a fourth product
+cartItems.pop("legos");   // removes the fourth product
+cartItems.unshift("Candle");  // adds an item to the beginning of the array
+cartItems.shift();   // removes the first item of the array
+console.log(`**Task 3**\nItems in cart: ${cartItems}\n`);  // logs the final version of the array
