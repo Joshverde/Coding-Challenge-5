@@ -31,3 +31,10 @@ cartItems.pop("legos");   // removes the fourth product
 cartItems.unshift("Candle");  // adds an item to the beginning of the array
 cartItems.shift();   // removes the first item of the array
 console.log(`**Task 3**\nItems in cart: ${cartItems}\n`);  // logs the final version of the array
+
+
+//Task 4 - Price Adjustments
+// declares an array
+let prices = [100,200,300];
+let disPrice = prices.map(price => price *.90); // discounts prices in array by 10% using .map() method
+console.log(`**Task 4**\nPrices: ${disPrice}\n`); //prints to console log
