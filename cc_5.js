@@ -67,3 +67,10 @@ function calculateTax(amount,taxRate) {
 };
 console.log(`**Task 8**\nTax for inputed amount: $${calculateTax(100,.1)}\n`);// prints to console log
 
+
+//Task 9 - Discount Application
+function applyDiscount(price,discount){
+    // returns the price after dicount is applied 
+    return price - discount
+};
+console.log(`**Task 9**\nDiscounted Price: $${applyDiscount(100,30)}\n`); // prints to console log 
