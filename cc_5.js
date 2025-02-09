@@ -74,3 +74,8 @@ function applyDiscount(price,discount){
     return price - discount
 };
 console.log(`**Task 9**\nDiscounted Price: $${applyDiscount(100,30)}\n`); // prints to console log 
+
+
+//Task 10 - Loyalty Points
+let calculatePoints = purchaseAmount => purchaseAmount /10  // calulates points earned for amount inputed
+console.log(`**Task 10**\nPoints earned: ${calculatePoints(34)}`) // calls functions and prints to console log
