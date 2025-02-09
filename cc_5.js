@@ -43,7 +43,7 @@ console.log(`**Task 4**\nPrices: ${disPrice}\n`); //prints to console log
 //Task 5 - Product Availability
 //declares and array
 let inventory = [5,0,12,8,0];
-let filtered = inventory.filter(inventory => inventory > 0 ); // only shows values greater than 0 using .filter() method
+let filtered = inventory.filter(inventory => inventory > 0 ); // only logs values greater than 0 using .filter() method
 console.log(`**Task 5**\nProduct Quantities: ${filtered}\n`);
 
 
@@ -56,6 +56,14 @@ console.log(`**Task 6**\nTotal Sales: ${totalSales}\n`); //prints to console log
 
 //Task 7 - Customer Search  
 let customers = ["Alice", "Bob", "Charlie", "David"]; //Creates an array
-let cstfind = customers.find(x => x === "Charlie");//  uses the find function to filter the area through a callback function. the call back fucntion checks if x equals charlie
+let cstfind = customers.find(x => x === "Charlie");//  uses find to filter through amd check if x === charlie
 console.log(`**Task 7**\nFind customer: ${cstfind}\n`); //prints to console log
+
+
+//Task 8 - Tax Calculation
+function calculateTax(amount,taxRate) {
+    // returns tax for given amount/tax rate
+    return amount * taxRate
+};
+console.log(`**Task 8**\nTax for inputed amount: $${calculateTax(100,.1)}\n`);// prints to console log
 
