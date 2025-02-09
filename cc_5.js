@@ -53,3 +53,9 @@ let sales = [500,300,200,400]; //Creates an array
 let totalSales = sales.reduce((sum,sales)=>sum + sales,0); //. applies the reduce method to sum total sales
 console.log(`**Task 6**\nTotal Sales: ${totalSales}\n`); //prints to console log
 
+
+//Task 7 - Customer Search  
+let customers = ["Alice", "Bob", "Charlie", "David"]; //Creates an array
+let cstfind = customers.find(x => x === "Charlie");//  uses the find function to filter the area through a callback function. the call back fucntion checks if x equals charlie
+console.log(`**Task 7**\nFind customer: ${cstfind}\n`); //prints to console log
+
